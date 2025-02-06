@@ -56,7 +56,7 @@ class SunsetSunrise : public DeviceConfig {
 			String last_updated;
 		} times;
 
-		SunsetSunrise(String ConfigFile = "SunsetSunrise.json", String api_url = "https://api.sunrise-sunset.org/json");
+		SunsetSunrise(String ConfigFile = "SunsetSunrise.json");
 		bool begin();
 		String getConfig();
 		bool setConfig(String config, bool save);;
@@ -64,7 +64,7 @@ class SunsetSunrise : public DeviceConfig {
 
 	protected:
 		/// @brief Webhook for sunset
-		Webhook sunset_hook;
+		Webhook sunset_hook{"https://api.sunrise-sunset.org/json"};
 
 		/// @brief Sunset object for calculating sunset/sunrise times
 		SunSet sunset;

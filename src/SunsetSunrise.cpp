@@ -2,7 +2,7 @@
 
 /// @brief Constructor for SunsetSunrise
 /// @param ConfigFile The configuration file for the SunsetSunrise object
-SunsetSunrise::SunsetSunrise(String ConfigFile, String api_url) : sunset_hook(api_url) {
+SunsetSunrise::SunsetSunrise(String ConfigFile) {
 	config_path = "/settings/util/" + ConfigFile;
 }
 
