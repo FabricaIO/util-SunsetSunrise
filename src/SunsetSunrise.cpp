@@ -1,7 +1,7 @@
 #include "SunsetSunrise.h"
 
 /// @brief Constructor for SunsetSunrise
-/// @param ConfigFile The configuration file for the SunsetSunrise object
+/// @param ConfigFile The configuration file name for the SunsetSunrise object
 SunsetSunrise::SunsetSunrise(String ConfigFile) {
 	config_path = "/settings/util/" + ConfigFile;
 }

@@ -69,7 +69,7 @@ class SunsetSunrise : public DeviceConfig {
 		/// @brief Sunset object for calculating sunset/sunrise times
 		SunSet sunset;
 
-		/// @brief The path to the configuration file
+		/// @brief Full path to config file
 		String config_path;
 
 		/// @brief The number of times the API failed
