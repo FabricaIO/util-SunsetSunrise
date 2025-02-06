@@ -8,6 +8,6 @@ Current API used: https://sunrisesunset.io/api/
 ## Configuration Description
 * `lat` The latitude of the location for sunset/sunrise
 * `lng` The longitude of the location for sunset/sunrise
-* `timezone_string` Timezone of the location for sunset/sunrise API (see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
+* `timezone_string` Timezone of the location for sunset/sunrise API (see [Timezones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)). If blank, disables API calls and only uses local calculations
 * `timezone_offset_seconds` Timezone offset from GMT in seconds, used for sunset/sunrise calculations
 * `automatic_timezone_offset` If true, will use the timezone offset on the device (usually from NTP) and ignore the manually entered offset
