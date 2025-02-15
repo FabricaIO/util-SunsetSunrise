@@ -1,0 +1,27 @@
+{
+	"name": "Fabrica-IO Utility Sunset",
+	"version": "0.5.0",
+	"description": "Retrieves sunset and sunrise times",
+	"keywords": "Fabrica-IO, utility, sunset",
+	"repository":
+	{
+	  "type": "git",
+	  "url": "https://github.com/FabricaIO/util-SunsetSunrise.git"
+	},
+	"authors":
+	[
+	  {
+		"name": "Sam Groveman",
+		"email": "SamGroveman@outlook.com",
+		"url": "https://github.com/FabricaIO"
+	  }
+	],
+	"dependencies": {
+		"sunset": "buelowp/sunset@^1.1.7",
+		"webhook": "https://github.com/FabricaIO/util-Webhook"
+	  },
+	"license": "GPLv3",
+	"homepage": "https://github.com/FabricaIO",
+	"frameworks": "arduino",
+	"platforms": "*"
+  }
